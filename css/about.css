@@ -7,6 +7,9 @@
 .about-main-content{
     text-align: center;
 }
+.about-main-content h3{
+    padding-bottom: 10px;
+}
 .social-top{
     margin-top: 76vh;
 }

@@ -35,7 +35,7 @@
     }
 
     .content {
-        height: 50vh;
+        height: 116vh;
     }
 
     .contact-form {
@@ -61,5 +61,8 @@
     }
     .blog-img{
         height: auto;
+    }
+    .center{
+        text-align: center;
     }
 }
