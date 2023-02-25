@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Roboto:ital@0;1&family=Sofia+Sans+Semi+Condensed:ital,wght@1,300&family=Source+Code+Pro&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 53px; */
+    /* background-color: rgb(234, 221, 221); */
+    font-family: var(--font1);
+
+}
+
+.nav-left {
+    display: flex;
+    font-size: 17px;
+    
+}
+.nav-left img{
+    width: 58px;
+}
+
+.nav-left span {
+    font-size: 20px;
+}
+
+
+.nav-left ul {
+    display: flex;
+    margin: 17px 19px;
+    position: sticky;
+    font-size: 18px;
+    color: black;
+}
+
+.nav-left ul li {
+    list-style: none;
+    font-family: var(--font2);
+    margin: 0 20px;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+}
+
+.content {
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url(../img/image.jpg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    border-radius: 12px;
+
+}
+
+.content-left {
+    /* width: 50%; */
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 31px;
+    z-index: 1;
+}
+
+.content-right {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    width: 272px;
+    border: 2px solid black;
+    border-radius: 78px;
+}
+
+.home-articles {
+    background-color: rgba(247, 242, 242, 0.7);
+    padding: 20px;
+    position: relative;
+
+}
+.year{
+    position: absolute;
+    height: 50px;
+    width: 52px;
+    right: 220px;
+    top: 51px;
+  }
+  .year input{
+    margin: 6px 0;
+  }
+
+.home-articles h2 {
+    padding-bottom: 10px;
+}
+
+.home-article {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: 5px;
+
+}
+
+.home-articles-content {
+    align-self: center;
+    padding: 76px 59px;
+
+}
+
+.home-articles-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-article img {
+    width: 272px;
+    border: 2px solid black;
+    border-radius: 34px;
+    display: flex;
+}
+
+.footer {
+    margin-top: 10px;
+    height: 45px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.max-widh-1 {
+    margin-top: 10px;
+}
